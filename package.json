@@ -1,0 +1,17 @@
+{
+  "name": "hyperliquid_trade",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@nktkas/hyperliquid": "^0.24.2",
+    "ccxt": "^4.5.2",
+    "dotenv": "^17.2.1"
+  }
+}
